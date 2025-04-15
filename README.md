@@ -99,8 +99,6 @@ Follow these instructions to replicate the setup and deployment process.
 
 ## Demo Screenshot
 
-*(This section should contain your screenshot showing CLI version, wallet address, and successful deployment with Program ID. Make sure the path is correct!)*
-
 ![Deployment Proof](img/Screenshot%20from%202025-04-14%2000-07-52.png)
 ![Deployment Proof](img/Screenshot%20from%202025-04-14%2000-06-33.png)
 ![Deployment Proof](img/Screenshot%20from%202025-04-14%2000-07-22.png)
