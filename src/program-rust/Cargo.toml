@@ -3,7 +3,9 @@ cargo-features = ["edition2024"]
 [package]
 name = "solana-bpf-helloworld"
 version = "0.0.1"
-license = "MIT LICENCE"
+description = "Example template program written in Rust"
+license = "Apache-2.0"
+homepage = "https://solana.com/"
 edition = "2018"
 
 [features]
