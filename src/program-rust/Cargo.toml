@@ -4,7 +4,7 @@ cargo-features = ["edition2024"]
 name = "solana-bpf-helloworld"
 version = "0.0.1"
 license = "MIT LICENCE"
-edition = "2024"
+edition = "2018"
 
 [features]
 no-entrypoint = []
