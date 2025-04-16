@@ -97,6 +97,16 @@ Follow these instructions to replicate the setup and deployment process.
     ```
     *(Compare this to the balance before deployment).*
 
+**7. Check the log:**
+*   You can check that the run was success by:
+    ```bash
+    cd src/client
+    npm install
+    npm run start <YOUR PROGRAM ID>
+    ```
+    *(You can check it in the https://explorer.solana.com/ enter the transaction in the search and choose devnet).*
+    
+
 ## Demo Screenshot
 
 ![Deployment Proof](img/Screenshot%20from%202025-04-14%2000-07-52.png)
