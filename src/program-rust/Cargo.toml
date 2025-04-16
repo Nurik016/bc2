@@ -1,3 +1,4 @@
+cargo-features = ["edition2024"]
 
 [package]
 name = "solana-bpf-helloworld"
@@ -13,9 +14,15 @@ borsh-derive = "0.10.0"
 solana-program = "~1.18.11"
 
 [dev-dependencies]
-solana-program-test = "~1.18.11"
-solana-sdk = "~1.18.11"
+solana-client = "1.18.26"
+solana-program-test = "1.18.26"
+solana-sdk = "1.18.26"
+tokio = "1.44.2"
 
 [lib]
 name = "helloworld"
 crate-type = ["cdylib", "lib"]
+
+[[example]]
+name = "client"
+path = "example/client.rs"
